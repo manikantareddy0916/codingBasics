@@ -1,0 +1,8 @@
+.cont {
+    color: red;
+    
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  height: 100vh; /* Adjust this to set the height */
+}

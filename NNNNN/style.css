@@ -1,0 +1,111 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #d4cf55;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */ 
+    align-items: center; /* Vertically center items */
+    box-sizing: border-box; /* Include padding in the height calculation */
+}
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Adjust the grid layout */
+    background: linear-gradient(135deg, #fbc2eb 0%, #a18cd1 100%); 
+}
+
+.small-images {
+    display: grid;
+    flex-direction: column;
+}
+.rightd{
+    float: right;
+    display: grid;
+    flex-direction: column;
+}
+.leftd{
+    float: left;
+}
+.imgsmall{
+    height: 30%;
+    width: 30%;
+}
+.styled-button {
+  height: 1%;
+  width: 50%; /* Explicitly set a width */
+  background-color: #d92323; /* Green background */
+  border: none;
+  color: white;
+  padding: 20px 30px; /* Add some padding */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 40px 2px;
+  cursor: pointer;
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for 3D effect */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+.lorem {
+  font-style: Sans-serif;
+  padding-left: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding-right: 20px; /* Optional: space between text and image */
+  text-align: start; /* Center text horizontally */
+}
+
+.image-container {
+    display: flex;
+    justify-content: flex-start; /* Aligns image to the left */
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    background-color: #EF484A;
+    
+}
+.menu-icon {
+  width: 24px; /* Set the width to a small size */
+  height: 30px; /* Maintain aspect ratio */
+  padding-top: 35%;
+  padding-left: 10%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color : #EF484A;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }

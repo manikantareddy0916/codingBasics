@@ -1,0 +1,18 @@
+/* Default styles for all devices */
+.container {
+    padding: 20px;
+}
+
+/* Styles for tablets and above */
+@media (min-width: 768px) {
+    .container {
+        padding: 40px;
+    }
+}
+
+/* Styles for desktops and above */
+@media (min-width: 1024px) {
+    .container {
+        padding: 60px;
+    }
+}

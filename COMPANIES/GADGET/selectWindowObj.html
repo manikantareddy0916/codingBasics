@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecting Elements Example</title>
+</head>
+<body>
+    <div id="myId">This is an element with ID.</div>
+    <div class="myClass">This is the first element with class.</div>
+    <div class="myClass">This is the second element with class.</div>
+    <div>This is an element with tag name DIV.</div>
+    <input type="text" name="myName" value="Input with name attribute">
+
+    <script>
+        // Select by ID
+        var byId = window.document.getElementById("myId");
+        console.log(byId);
+
+        // Select by class name
+        var byClassName = window.document.getElementsByClassName("myClass");
+        console.log(byClassName);
+
+        // Select by tag name
+        var byTagName = window.document.getElementsByTagName("div");
+        console.log(byTagName);
+
+        // Select by CSS selector (first match)
+        var byQuerySelector = window.document.querySelector(".myClass");
+        console.log(byQuerySelector);
+
+        // Select by CSS selector (all matches)
+        var byQuerySelectorAll = window.document.querySelectorAll(".myClass");
+        console.log(byQuerySelectorAll);
+
+        // Select by name attribute
+        var byName = window.document.getElementsByName("myName");
+        console.log(byName);
+    </script>
+</body>
+</html>

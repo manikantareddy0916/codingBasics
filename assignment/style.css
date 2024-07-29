@@ -1,0 +1,304 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%; /* Adjust as needed */
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff; /* Optional: Add background color */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+  margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between; /* Distribute space between images and text */
+  align-items: flex-start; /* Align items to the top */
+  padding: 20px 0;
+}
+
+.image-container2 {
+  display: flex;
+  gap: 20px; /* Space between columns */
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between images in the same column */
+}
+
+.image-small {
+  width: 100%;
+  max-width: 150px; /* Adjust the max-width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border: 2px solid #ccc; /* Optional: Add a border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for 3D effect */
+  border-radius: 5px; /* Optional: Rounded corners */
+}
+
+.image-med {
+  width: 100%;
+  max-width: 300px; /* Adjust the max-width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border: 2px solid #ccc; /* Optional: Add a border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for 3D effect */
+  border-radius: 5px; /* Optional: Rounded corners */
+}
+
+.text-container {
+  width: 100%; /* Adjust width as needed */
+  padding: 20px;
+  text-align: left; /* Align text to the left */
+}
+.dj {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Adjust the grid layout */
+  padding: 20px;
+  background: #f8c8c8; /* Background gradient */
+  margin-top: 20px; /* Add margin at the top */
+}
+
+.dj1 {
+    display: grid;
+    padding: 20%;
+    grid-template-areas:
+        "small small"
+        "big big";
+    gap: 10px;
+}
+
+.small-images {
+    display: grid;
+    flex-direction: column;
+}
+
+.djimage-small {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.big-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.djimage-big {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.dj2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 87, 87, 0.8); /* Background color for text container */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.dj2 h1, .dj2 p {
+    margin: 0;
+    color: #fff; /* Text color */
+    text-align: center;
+}
+
+.dj2 h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.dj2 p {
+    font-size: 1.2em;
+}
+
+.dj-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #ff5757;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.container {
+    background-color: #f8c8c8;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */ 
+    align-items: center; /* Vertically center items */
+    box-sizing: border-box; /* Include padding in the height calculation */
+}
+
+.styled-button {
+  height: 1%;
+  width: 50%; /* Explicitly set a width */
+  background-color: #d92323; /* Green background */
+  border: none;
+  color: white;
+  padding: 20px 30px; /* Add some padding */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 40px 2px;
+  cursor: pointer;
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for 3D effect */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+.lorem {
+  font-style: Sans-serif;
+  padding-left: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding-right: 20px; /* Optional: space between text and image */
+  text-align: start; /* Center text horizontally */
+}
+
+.image-container {
+    display: flex;
+    justify-content: flex-start; /* Aligns image to the left */
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    background-color: #E44C4C;
+    
+}
+.menu-icon {
+  width: 24px; /* Set the width to a small size */
+  height: 30px; /* Maintain aspect ratio */
+  padding-top: 35%;
+  padding-left: 10%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color : #EF484A;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+/* 
+  .container4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.images4 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.image-item4 {
+    flex: 1;
+}
+
+.image-item4 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text {
+    background: #ff6f61;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+    margin-left: 20px;
+}
+
+.text h1 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.text h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.text a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.text a span {
+    font-size: 24px;
+    margin-left: 5px;
+} */
+.container7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cc{
+  text-align:left ;
+}
+
+.button-container7 {
+  background-color: #ff7388;
+  padding: 20px; /* Adjust padding as needed */
+  border-radius: 4px;
+  color: black;
+  text-align: center;
+  font-size: 16px; /* Adjust font size as needed */
+  text-decoration: none;
+}
+
